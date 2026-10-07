@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Zombie Scrum Detector — ceremonies are not the mindset</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<!-- pb-shell --><link rel="stylesheet" href="./pb-shell.css"><!-- pb-shell --><!-- pb-back --><link rel="stylesheet" href="./pb-back.css"><!-- pb-back --></head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>Zombie Scrum Detector</h1>
+    <p class="sub">Score a team on two independent axes — Scrum ceremonies and agile mindset — and watch a
+    team pass every ceremony while failing every check that matters.</p>
+    <a class="guide-link" href="/guide.html">How scoring works &rarr;</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel">
+    <h2>Four teams, four verdicts</h2>
+    <div class="tabs" id="example-tabs"></div>
+    <div id="example-detail" class="detail"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Score your own team</h2>
+    <p class="hint" id="custom-hint">Describe the team as JSON — one boolean per check. Ceremony fields:
+      <code>planning</code>, <code>daily</code>, <code>review</code>, <code>retro</code>,
+      <code>rolesStaffed</code>, <code>backlogEstimated</code>, <code>fixedCadence</code>.
+      Mindset fields: <code>scopeNegotiable</code>, <code>retroActionShipped</code>,
+      <code>velocityIsForecast</code>, <code>poDecides</code>, <code>realFeedback</code>,
+      <code>doneIsUsable</code>, <code>teamSetsPace</code>.</p>
+    <textarea id="custom-team" rows="9" spellcheck="false" aria-describedby="custom-hint" placeholder='{"planning": true, "daily": true, "retro": false}'></textarea>
+    <div class="row">
+      <button id="score-btn">Score it</button>
+      <span id="custom-error" class="error"></span>
+    </div>
+    <div id="custom-result"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Zombie Scrum Detector — a zero-dependency teaching lab. It scores described behavior;
+  it cannot tell honest answers from aspirational ones.</p>
+</footer>
+
+<script type="module" src="/app.js"></script>
+<!-- pb-shell --><a class="pb-shell" href="https://github.com/anhquanbd2021/agile-vs-scrum-cost" title="agile-vs-scrum-cost — an Article Playbook demo (view source)"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="2" width="9" height="9" rx="2" fill="#2dd4bf"/><rect x="13" y="2" width="9" height="9" rx="2" fill="#2dd4bf" opacity=".45"/><rect x="2" y="13" width="9" height="9" rx="2" fill="#2dd4bf" opacity=".45"/><rect x="13" y="13" width="9" height="9" rx="4.5" fill="#2dd4bf"/></svg><b>agile-vs-scrum-cost</b><i>DEMO</i></a><!-- pb-shell --><!-- pb-back --><a class="pb-back" id="pb-back" href="https://github.com/anhquanbd2021/agile-vs-scrum-cost" title="Back to the article — agile-vs-scrum-cost">← Article <i>PLAYBOOK</i></a><script>(function(){var a=document.getElementById('pb-back');if(!a)return;var h=location.hostname;if(/^(localhost|127\.0\.0\.1|192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.)/.test(h)){a.href='//'+h+':'+(/^(localhost|127\.0\.0\.1)$/.test(h)?'1234':'30082')+'/microsites/article.html?slug=agile-vs-scrum-cost';}})();</script><!-- pb-back --></body>
+</html>

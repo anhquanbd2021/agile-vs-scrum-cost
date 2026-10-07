@@ -1,0 +1,16 @@
+{
+  "name": "zombie-scrum-detector",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zombie Scrum Detector — score a team profile on ceremonies vs. mindset separately, then see which quadrant it lands in.",
+  "scripts": {
+    "start": "node app/server.js",
+    "report": "node scripts/team-report.mjs",
+    "test": "node --test \"test/*.test.mjs\"",
+    "check": "npm test && npm run report"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

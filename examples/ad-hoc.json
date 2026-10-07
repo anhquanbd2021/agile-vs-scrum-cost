@@ -1,0 +1,17 @@
+{
+  "name": "Ad hoc — neither the framework nor the mindset",
+  "planning": true,
+  "daily": true,
+  "review": false,
+  "retro": false,
+  "rolesStaffed": false,
+  "backlogEstimated": false,
+  "fixedCadence": false,
+  "scopeNegotiable": true,
+  "retroActionShipped": false,
+  "velocityIsForecast": false,
+  "poDecides": false,
+  "realFeedback": false,
+  "doneIsUsable": false,
+  "teamSetsPace": false
+}

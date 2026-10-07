@@ -1,0 +1,17 @@
+{
+  "name": "Zombie Scrum — flawless process, dead feedback loops",
+  "planning": true,
+  "daily": true,
+  "review": true,
+  "retro": true,
+  "rolesStaffed": true,
+  "backlogEstimated": true,
+  "fixedCadence": true,
+  "scopeNegotiable": false,
+  "retroActionShipped": false,
+  "velocityIsForecast": false,
+  "poDecides": false,
+  "realFeedback": false,
+  "doneIsUsable": false,
+  "teamSetsPace": false
+}

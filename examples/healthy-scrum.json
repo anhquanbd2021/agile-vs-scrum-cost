@@ -1,0 +1,17 @@
+{
+  "name": "Healthy Scrum — mechanics serving the mindset",
+  "planning": true,
+  "daily": true,
+  "review": true,
+  "retro": true,
+  "rolesStaffed": true,
+  "backlogEstimated": true,
+  "fixedCadence": true,
+  "scopeNegotiable": true,
+  "retroActionShipped": true,
+  "velocityIsForecast": true,
+  "poDecides": true,
+  "realFeedback": true,
+  "doneIsUsable": true,
+  "teamSetsPace": true
+}

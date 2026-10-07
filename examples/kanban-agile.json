@@ -1,0 +1,17 @@
+{
+  "name": "Kanban-style team — barely any Scrum, all of the agile",
+  "planning": false,
+  "daily": true,
+  "review": true,
+  "retro": true,
+  "rolesStaffed": false,
+  "backlogEstimated": false,
+  "fixedCadence": false,
+  "scopeNegotiable": true,
+  "retroActionShipped": true,
+  "velocityIsForecast": true,
+  "poDecides": true,
+  "realFeedback": true,
+  "doneIsUsable": true,
+  "teamSetsPace": true
+}
